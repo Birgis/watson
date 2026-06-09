@@ -1,27 +1,27 @@
-*my-template-docs.txt*     For Neovim >= 0.8.0    Last change: 2025 October 08
+*watson.txt*     For Neovim >= 0.8.0    Last change: 2025 October 08
 
 ==============================================================================
-Table of Contents                         *my-template-docs-table-of-contents*
+Table of Contents                         *watson-table-of-contents*
 
-1. A Neovim Plugin Template        |my-template-docs-a-neovim-plugin-template|
-  - Using it              |my-template-docs-a-neovim-plugin-template-using-it|
-  - Features and structure|my-template-docs-a-neovim-plugin-template-features-and-structure|
-2. Links                                              |my-template-docs-links|
+1. Watson        |watson-a-neovim-plugin-template|
+  - Using it              |watson-a-neovim-plugin-template-using-it|
+  - Features and structure|watson-a-neovim-plugin-template-features-and-structure|
+2. Links                                              |watson-links|
 
 ==============================================================================
-1. A Neovim Plugin Template        *my-template-docs-a-neovim-plugin-template*
+1. Watson        *watson-a-neovim-plugin-template*
 
 
 
-A template repository for Neovim plugins.
+Watson is an AI helper for Neovim.
 
 
-USING IT                  *my-template-docs-a-neovim-plugin-template-using-it*
+USING IT                  *watson-a-neovim-plugin-template-using-it*
 
 Via `gh`:
 
 >
-    $ gh repo create my-plugin -p ellisonleao/nvim-plugin-template
+    $ gh repo create watson -p ellisonleao/nvim-plugin-template
 <
 
 Via github web page:
@@ -31,7 +31,7 @@ Click on `Use this template`
 
 
 
-FEATURES AND STRUCTURE*my-template-docs-a-neovim-plugin-template-features-and-structure*
+FEATURES AND STRUCTURE*watson-a-neovim-plugin-template-features-and-structure*
 
 - 100% Lua
 - Github actions for:
@@ -46,21 +46,21 @@ PLUGIN STRUCTURE ~
 >
     .
     ├── lua
-    │   ├── plugin_name
+    │   ├── watson
     │   │   └── module.lua
-    │   └── plugin_name.lua
+    │   └── watson.lua
     ├── Makefile
     ├── plugin
-    │   └── plugin_name.lua
+    │   └── watson.lua
     ├── README.md
     ├── tests
     │   ├── minimal_init.lua
-    │   └── plugin_name
-    │       └── plugin_name_spec.lua
+    │   └── watson
+    │       └── watson_spec.lua
 <
 
 ==============================================================================
-2. Links                                              *my-template-docs-links*
+2. Links                                              *watson-links*
 
 1. *GitHub Workflow Status*: https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge
 2. *Lua*: https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua

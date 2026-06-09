@@ -1,10 +1,10 @@
 -- main module file
-local module = require("plugin_name.module")
+local module = require("watson.module")
 
 ---@class Config
 ---@field opt string Your config option
 local config = {
-  opt = "Hello!",
+  opt = "Watson!",
 }
 
 ---@class MyModule
@@ -21,7 +21,7 @@ M.setup = function(args)
 end
 
 M.hello = function()
-  return module.my_first_function(M.config.opt)
+  return module.respond(M.config.opt)
 end
 
 return M

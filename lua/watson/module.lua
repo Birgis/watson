@@ -1,8 +1,8 @@
----@class CustomModule
+---@class WatsonModule
 local M = {}
 
 ---@return string
-M.my_first_function = function(greeting)
+M.respond = function(greeting)
   return greeting
 end
 
